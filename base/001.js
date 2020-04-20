@@ -1,3 +1,4 @@
+
 var singleNumber = function(nums) {
     let r= 0;
     for (let i=0,l =nums.length;i<l;i++){
