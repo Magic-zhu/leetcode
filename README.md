@@ -1,5 +1,8 @@
-目录(对应leetcode题目)
+Leetcode
 
+Javascript Folder / file's name = Serial number of the topic
+
+<!-- 
 1. 整数反转
 2. 两数之和
 3. 合并排序数组
@@ -21,4 +24,4 @@
 
 ### 字符串
 
-1. 反转字符串
+1. 反转字符串 -->
