@@ -3,22 +3,22 @@
  * @param {number[]} nums
  * @return {number[]}
  */
- var sortedSquares = function(nums) {
+var sortedSquares = function (nums) {
     const len = nums.length;
     let result = [];
-    let left = 0;  
-    let right = len-1; 
-    while(left!==right){
-        const sRight = nums[right]* nums[right]
-        const sLeft = nums[left] *  nums[left]
-        if(sRight>=sLeft){
+    let left = 0;
+    let right = len - 1;
+    while (left !== right) {
+        const sRight = nums[right] * nums[right]
+        const sLeft = nums[left] * nums[left]
+        if (sRight >= sLeft) {
             result.unshift(sRight);
             right--;
-        }else{
+        } else {
             result.unshift(sLeft);
             left++;
         }
     }
-    result.unshift(nums[left]*nums[left])
+    result.unshift(nums[left] * nums[left])
     return result
 };
